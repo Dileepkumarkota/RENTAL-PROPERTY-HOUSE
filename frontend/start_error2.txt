@@ -1,0 +1,90 @@
+﻿
+> frontend@0.1.0 start
+> craco start
+
+node.exe : (node:29028) [DEP0176] DeprecationWarning: fs.F_OK is deprecated, use fs.constants.F_OK instead
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ((node:29028) [D...ts.F_OK instead:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:29028) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is 
+deprecated. Please use the 'setupMiddlewares' option.
+(node:29028) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option 
+is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled with warnings.
+
+[eslint] 
+src\components\ChatModal.jsx
+  Line 32:6:  React Hook useEffect has missing dependencies: 'createOrGetConversation' and 'currentConversation'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 48:6:  React Hook useEffect has a missing dependency: 'loadMessages'. Either include it or remove the dependency array                                         react-hooks/exhaustive-deps
+  Line 67:6:  React Hook useEffect has a missing dependency: 'markAsRead'. Either include it or remove the dependency array                                           react-hooks/exhaustive-deps
+
+src\components\ReviewsSection.jsx
+  Line 19:6:  React Hook useEffect has a missing dependency: 'fetchReviews'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\contexts\SocketContext.jsx
+  Line 65:6:  React Hook useEffect has a missing dependency: 'socket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\AddListingPageNew.jsx
+  Line 68:6:  React Hook useEffect has a missing dependency: 'initializeMap'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\ListingDetailPage.jsx
+  Line 37:6:  React Hook useEffect has a missing dependency: 'fetchListingDetails'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\ListingsPage.jsx
+  Line 30:6:  React Hook useEffect has a missing dependency: 'fetchListings'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\OwnerDashboard.jsx
+  Line 24:6:  React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\OwnerInboxPage.jsx
+  Line 24:6:  React Hook useEffect has a missing dependency: 'loadConversations'. Either include it or remove the dependency array                     react-hooks/exhaustive-deps
+  Line 39:6:  React Hook useEffect has a missing dependency: 'loadMessages'. Either include it or remove the dependency array                          react-hooks/exhaustive-deps
+  Line 59:6:  React Hook useEffect has missing dependencies: 'loadConversations' and 'markAsRead'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\WishlistPage.jsx
+  Line 18:6:  React Hook useEffect has a missing dependency: 'refreshWishlist'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+Search for the keywords to learn more about each warning.
+To ignore, add // eslint-disable-next-line to the line before.
+
+[1m[33mWARNING[39m[22m in [1m[eslint] 
+src\components\ChatModal.jsx
+  Line 32:6:  React Hook useEffect has missing dependencies: 'createOrGetConversation' and 'currentConversation'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  Line 48:6:  React Hook useEffect has a missing dependency: 'loadMessages'. Either include it or remove the dependency array                                         react-hooks/exhaustive-deps
+  Line 67:6:  React Hook useEffect has a missing dependency: 'markAsRead'. Either include it or remove the dependency array                                           react-hooks/exhaustive-deps
+
+src\components\ReviewsSection.jsx
+  Line 19:6:  React Hook useEffect has a missing dependency: 'fetchReviews'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\contexts\SocketContext.jsx
+  Line 65:6:  React Hook useEffect has a missing dependency: 'socket'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\AddListingPageNew.jsx
+  Line 68:6:  React Hook useEffect has a missing dependency: 'initializeMap'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\ListingDetailPage.jsx
+  Line 37:6:  React Hook useEffect has a missing dependency: 'fetchListingDetails'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\ListingsPage.jsx
+  Line 30:6:  React Hook useEffect has a missing dependency: 'fetchListings'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\OwnerDashboard.jsx
+  Line 24:6:  React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\OwnerInboxPage.jsx
+  Line 24:6:  React Hook useEffect has a missing dependency: 'loadConversations'. Either include it or remove the dependency array                     react-hooks/exhaustive-deps
+  Line 39:6:  React Hook useEffect has a missing dependency: 'loadMessages'. Either include it or remove the dependency array                          react-hooks/exhaustive-deps
+  Line 59:6:  React Hook useEffect has missing dependencies: 'loadConversations' and 'markAsRead'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+src\pages\WishlistPage.jsx
+  Line 18:6:  React Hook useEffect has a missing dependency: 'refreshWishlist'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+[39m[22m
+
+webpack compiled with [1m[33m1 warning[39m[22m

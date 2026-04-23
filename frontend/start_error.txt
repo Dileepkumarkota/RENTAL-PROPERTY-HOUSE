@@ -1,0 +1,73 @@
+﻿
+> frontend@0.1.0 start
+> craco start
+
+node.exe : node:internal/modules/cjs/loader:1456
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (node:internal/modules/cjs/loader:1456:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  const err = new Error(message);
+              ^
+
+Error: Cannot find module 'ajv/dist/compile/codegen'
+Require stack:
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\ajv-keywords\dist\definitions\typeof.js
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\ajv-keywords\dist\keywords\typeof.js
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\ajv-keywords\dist\keywords\index.js
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\ajv-keywords\dist\index.js
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\schema-utils\dist\validate.js
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\schema-utils\dist\index.js
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\terser-webpack-plugin\dist\index.js
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\react-scripts\config\webpack.config.js
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\@craco\craco\dist\lib\cra.js
+- C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-property-management-platform-
+final-1-main\frontend\node_modules\@craco\craco\dist\scripts\start.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1456:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1066:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1071:22)
+    at Module._load (node:internal/modules/cjs/loader:1242:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.require (node:internal/modules/cjs/loader:1556:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\srinu\OneDrive\Desktop\rental-property-management-platform-final-1-main\rental-prop
+erty-management-platform-final-1-main\frontend\node_modules\ajv-keywords\dist\definitions\typeof.js:3:19)
+    at Module._compile (node:internal/modules/cjs/loader:1812:14)
+    at Object..js (node:internal/modules/cjs/loader:1943:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\ajv-keywords\\dist\\definitions\\typeof.js',
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\ajv-keywords\\dist\\keywords\\typeof.js',
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\ajv-keywords\\dist\\keywords\\index.js',
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\ajv-keywords\\dist\\index.js',
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\schema-utils\\dist\\validate.js',
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\schema-utils\\dist\\index.js',
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\terser-webpack-plugin\\dist\\index.js',
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\react-scripts\\config\\webpack.config.js',
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\@craco\\craco\\dist\\lib\\cra.js',
+    'C:\\Users\\srinu\\OneDrive\\Desktop\\rental-property-management-platform-final-1-main\\rental-property-management-
+platform-final-1-main\\frontend\\node_modules\\@craco\\craco\\dist\\scripts\\start.js'
+  ]
+}
+
+Node.js v24.14.1
