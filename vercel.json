@@ -1,6 +1,6 @@
 {
-  "installCommand": "cd frontend && yarn install",
-  "buildCommand": "cd frontend && CI=false yarn build",
+  "installCommand": "cd frontend && npm install",
+  "buildCommand": "cd frontend && CI=false npm run build",
   "outputDirectory": "frontend/build",
   "framework": "create-react-app",
   "rewrites": [
