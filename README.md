@@ -204,4 +204,5 @@ npm start
 Backend commands
 cd rental-property-management-platform-final-1-main\backend
 .\venv\Scripts\activate
+pip install -r requirements.txt
 uvicorn server:app --reload

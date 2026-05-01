@@ -438,7 +438,7 @@ async def get_owner_listings(current_user: dict = Depends(get_current_user)):
 async def get_owner_profile(current_user: dict = Depends(get_current_user)):
     profile = await db.owner_profiles.find_one({"userId": current_user["id"]})
     if not profile:
-        raise HTTPException(status_code=404, detail="Profile not found")
+        return {"success": False, "message": "Profile not found"}
     
     return {"success": True, "profile": serialize_doc(profile)}
 
